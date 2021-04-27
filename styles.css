@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F2F2F2F2;
+}
+
+.container{
+    display: grid;
+    gap: 5px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 35px auto;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "widget-1 widget-2 widget-3 widget-4"
+    "widget-5";
+}
+
+.widget-1{
+    background-color: rgb(133, 133, 250);
+    color: rgb(6, 31, 77);
+}
+
+.widget-2{
+    background-color: rgb(147, 247, 142);
+    color: rgb(47, 89, 6);
+}
+
+.widget-3{
+    background-color: rgb(240, 109, 109);
+    color: rgb(107, 6, 26);
+}
+
+.widget-4{
+    background-color: rgb(242, 248, 120);
+    color: rgb(69, 70, 2);
+}
+
+.widget-5{
+    background-color: rgb(245, 136, 227);
+    color: darkorchid;
+}
+
+
+div, p, h2, h3{
+    text-align: center;
+    padding: 5px;
+}
+
+div{
+    border-radius: 4px;
+}
+
+span{
+    display: block;
+}
